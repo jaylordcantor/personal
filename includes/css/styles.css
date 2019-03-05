@@ -16,7 +16,6 @@ h2{
 }
 p{
 	font-size: inherit;
-	font-style: italic;
 	line-height: 1.5;
 	color: #ABB1BA;
 	font-weight: 100;
@@ -63,7 +62,7 @@ p{
 	color:#17A2B8;
 }
 
-.heading{
+.header{
 	min-height: 500px;
 	background: url("../../images/back.png"); 
 	background-size: cover;
