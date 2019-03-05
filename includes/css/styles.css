@@ -3,6 +3,7 @@
 body{
 	background-color: #c8feff;
 	height: 100%;
+	font-size: 20px;
 }
 
 hr{
@@ -14,10 +15,12 @@ h1,h2,h3,h4,h5,h6{
 	color: #17A2B8;
 }
 p{
-	font-size: 20px;
-	font-family: 'Arial', 'cursive';
+	font-size: inherit;
 	font-style: italic;
 	line-height: 1.5;
+	color: #ABB1BA;
+	font-weight: 100;
+	text-align: left;	
 }
 section{
 	background-color: #fff;
