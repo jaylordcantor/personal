@@ -1,0 +1,92 @@
+
+
+body{
+	background-color: #c8feff;
+	height: 100%;
+}
+
+hr{
+	border-top:10px dotted #17A2B8;
+	width: 60px;
+	opacity: 0.7;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #17A2B8;
+}
+p{
+	font-size: 20px;
+	font-family: 'Arial', 'cursive';
+	font-style: italic;
+	line-height: 1.5;
+}
+section{
+	background-color: #fff;
+	margin-top: -10px;
+}
+
+
+
+/**
+-------------------------------------
+|                                   |
+|          Nav Style                |
+|                                   |
+-------------------------------------
+**/
+.nav-link{
+	color: #fff;
+}
+.navbar-brand:hover{
+	border-radius: 100%;
+	background-color: #fff
+}
+/**
+-------------------------------------
+|                                   |
+|          Header Style             |
+|                                   |
+-------------------------------------
+
+**/
+
+.content{
+	position: relative;
+	top: 50px;
+	color:#17A2B8;
+}
+
+.heading{
+	min-height: 500px;
+	background: url("../../images/back.png"); 
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-bottom: 0px;
+}
+
+
+.text-h1{
+	font-family:'tangerine', 'cursive';
+	font-size: 100px;
+	font-weight: bold;
+}
+.text-h2{
+	font-family:'tangerine', 'cursive';
+	font-weight: bold;
+	font-size: 50px;
+}
+.text-h3{
+	font-family:'tangerine', 'cursive';
+	font-weight: bold;
+	font-size: 40px;
+}
+
+/*
+
+---------------------Section 1--------------------------
+
+*/
+.box{
+	padding:50px 30px 40px 30px;
+}
+
