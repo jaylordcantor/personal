@@ -1,5 +1,7 @@
 
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 	background-color: #c8feff;
 	height: 100%;
@@ -38,6 +40,7 @@ p{
 |                                   |
 -------------------------------------
 **/
+
 .nav-link{
 	color: #fff;
 }
@@ -50,6 +53,29 @@ p{
 	border-radius: 100%;
 	background-color: #fff
 }
+
+
+#navbar {
+  z-index: 1;
+  background-color: #333; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  width: 100%; /* Full width */
+   /* Transition effect when sliding down (and up) */
+}
+#nav-pic{
+	transition: 0.3s;
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
 /**
 -------------------------------------
 |                                   |
@@ -66,6 +92,8 @@ p{
 }
 
 .header{
+	position: relative;
+	top: 100px;
 	min-height: 500px;
 	background: url("../../images/back.png"); 
 	background-size: cover;
@@ -96,6 +124,11 @@ p{
 ---------------------Section 1--------------------------
 
 */
+
+section,footer{
+	position: relative;
+	top: 100px;
+}
 .box{
 	padding:50px 30px 40px 30px;
 }
